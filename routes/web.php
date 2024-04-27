@@ -46,3 +46,5 @@ Route::get('get-all-data', function() {
 
 // Route Tugas 3 Laravel
 Route::get('/cafe-amandemy',[ProductController::class,'index']);
+
+// Route Tugas 4 Laravel

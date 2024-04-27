@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 // Menampilkan Halaman Utama Laravel
@@ -42,3 +43,6 @@ Route::get('get-all-data', function() {
         ]
     ], 200);
 });
+
+// Route Tugas 3 Laravel
+Route::get('/cafe-amandemy',[ProductController::class,'index']);
